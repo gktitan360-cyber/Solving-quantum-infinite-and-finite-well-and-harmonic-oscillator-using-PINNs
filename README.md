@@ -44,12 +44,10 @@ The repository consists of the following Jupyter Notebooks:
 To run these notebooks locally, you need Python 3.8+ along with the following primary libraries:
 
 * NumPy
-* SciPy
 * Matplotlib
 * PyTorch (or TensorFlow, depending on your backend choice)
-* FEniCS / SfePy (for the FEM benchmarks)
 
 You can install the dependencies via pip:
 
 ```bash
-pip install numpy scipy matplotlib torch
+pip install numpy matplotlib torch
